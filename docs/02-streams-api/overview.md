@@ -11,7 +11,7 @@ image: "/img/content/e1ac10a-d06bbe5-Moralis-Streams-API.webp"
 
 ## What is the Streams API?
 
-With Streams API you can listen for real time events on chain, you can listen for when a new event is emitted in your contract or for when a walltet address does an NFT transfer or a transaction. You can also get notifications for native and internal transactions. You will receive webhook requests for those events specific to your stream configuration.
+With Streams API you can listen for real time events on chain, you can listen for when a new event is emitted in your contract or for when a wallet address does an NFT transfer or a transaction. You can also get notifications for native and internal transactions. You will receive webhook requests for those events specific to your stream configuration.
 
 ```mermaid
 graph TD;
@@ -90,7 +90,7 @@ Webhooks allow you to receive real-time notifications for events that are happen
 | APTOS MAINNET | mainnet        | Not Applicable                 | 🔥 NEW                                  | Not Applicable         |
 | APTOS TESTNET | testnet        | Not Applicable                 | 🔥 NEW                                  | Not Applicable         |
 
-:::info Reorgnization Before Confirmation
+:::info Reorganization Before Confirmation
 Until a block is confirmed, it is possible that a re-organization of the chain may occur, invalidating some information. If a re-organization does occur before a block is confirmed, the information associated with the block is deleted and the updated block is inserted in its place.
 :::
 
